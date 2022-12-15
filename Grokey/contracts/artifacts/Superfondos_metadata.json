@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "Retiro",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "contribuir",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalanceInEther",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Fondosgrokey.sol": "Superfondos"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Admin.sol": {
+			"keccak256": "0x81b413bf90e2a1fc2c6b8e7dd0b52bf49df2b26d08c059cd3e2a20a3eb6cdcf6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://788ffdb89d8bc72cb8555d7f40882bf890c2f9a7a76c05cb12997e20f51e85be",
+				"dweb:/ipfs/Qma9qbssfsv4t1FaBJSFXbEjVA94xg8AEPkCMSjdjWxPi3"
+			]
+		},
+		"contracts/Fondosgrokey.sol": {
+			"keccak256": "0x2004d854be64d01498f3192f6f251e899aa2d8685ca55fc2853578553aee6eda",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6f64a8a15f9881dbb308f8e98028c06329ec9b92077d1fb0a25124cf7ebb07a5",
+				"dweb:/ipfs/QmUbpq7ng9RNaaWcTd4tNhpLLsVCaVZyqRUkaQymEFS2HU"
+			]
+		}
+	},
+	"version": 1
+}
